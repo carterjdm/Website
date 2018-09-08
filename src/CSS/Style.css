@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    color: #343639;
+    color: #343631;
     /* font-weight: 1600;
     font-size: 66pt;
     line-height: 78pt;*/
@@ -21,28 +21,28 @@ body {
 }
 
 a {
-    color:#343639;
+    color:#343631;
     text-decoration: none;
 }
 a:visited {
-    color:#343639;
+    color:#343631;
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
 }
 a:active {
-    color:#343639;
+    color:#343631;
     text-decoration: none;
 }
 
 
 p.list a {
-    color:#343639;
+    color:#343631;
     text-decoration: none;
 }
 p.list a:visited {
-    color:#343639;
+    color:#343631;
     text-decoration: none;
 }
 p.list a:hover {
@@ -50,33 +50,33 @@ p.list a:hover {
     text-decoration: none;
 }
 p.list a:active {
-    color:#343639;
+    color:#343631;
     text-decoration: none;
 }
 
 
 p a {
-    color:#343639;
+    color:#343631;
     text-decoration: underline;
 }
 p a:visited {
-    color:#343639;
+    color:#343631;
     text-decoration: underline;
 }
 p a:hover {
     text-decoration: none;
 }
 p a:active {
-    color:#343639;
+    color:#343631;
     text-decoration: none;
 }
 
 h1 a.title {
-    color:#343639;
+    color:#343631;
     text-decoration: none;
 }
 h1 a.title:visited {
-    color:#343639;
+    color:#343631;
     text-decoration: none;
 }
 h1 a.title:hover {
@@ -84,7 +84,7 @@ h1 a.title:hover {
     /*text-decoration: underline;*/
 }
 h1 a.title:active {
-    color:#343639;
+    color:#343631;
 }
 
 
