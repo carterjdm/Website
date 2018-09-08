@@ -92,9 +92,9 @@ h1 a.title:active {
 h1 {
     font-weight: bold;
     display:block;
-    font-size: 20pt;
-    margin:20pt;
-    margin-bottom:20pt;
+    font-size: 70pt;
+    margin:70pt;
+    margin-bottom:70pt;
     /*margin-left:200pt;*/
     margin-left:auto;
     margin-right:auto;
@@ -105,9 +105,9 @@ h1 {
 h2 {
     font-weight: bold;
     display:block;
-    font-size: 20pt;
-    margin:20pt;
-    margin-bottom:20pt;
+    font-size: 70pt;
+    margin:70pt;
+    margin-bottom:70pt;
     /*margin-left:200pt;*/
 
     margin-left:auto;
