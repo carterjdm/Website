@@ -1,4 +1,9 @@
-html {
+html
+::-webkit-scrollbar {
+    display: none;
+}
+
+{
     -webkit-text-size-adjust: 100%;
     /* this stops mobile on iOS from resizing*/
 }
@@ -39,21 +44,44 @@ html {
   width: 150px;
   border-radius: 50%;
 }
+h1 {
+    position: fixed
+    font-weight: bold;
+    display:block;
+    font-size:100pt;
+    margin-bottom:-20pt;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
 
 
+h1 a.title {
+    color:#343631;
+    text-decoration: none;
+}
+h1 a.title:visited {
+    color:#343631;
+    text-decoration: none;
+}
+h1 a.title:hover {
+    color:#g9g9g3;
+    text-decoration: underline;
+}
+h1 a.title:active {
+    color:#343631;
+}
 body {
-    color: #300000;
-
-    font-size: 30pt;
+color: #343639;
+    font-size: 20pt;
+    line-height: 30pt;
     font-weight: bold;
     font-family: Sans-Serif;
     /*background-color: #f9f9f3;*/
     background-color: #f9f9f3;
-    padding:0;
-    margin:0;
     position:relative;
     height:100%
-    max-width:500pt;
+    max-width:600pt;
     text-align:center;
 }
 
@@ -110,41 +138,15 @@ p a:active {
     text-decoration: none;
 
 
-h1 {
-    font-weight: bold;
-    display:block;
-    font-size: 70pt;
-    margin:50pt;
-    margin-top:-40pt;
-    max-width:500pt;
-    text-align:center;
-}
 
-
-h1 a.title {
-    color:#343631;
-    text-decoration: none;
-}
-h1 a.title:visited {
-    color:#343631;
-    text-decoration: none;
-}
-h1 a.title:hover {
-    color:#g9g9g3;
-    text-decoration: underline;
-}
-h1 a.title:active {
-    color:#343631;
-}
 
 
 
 h2 {
     font-weight: bold;
     display:block;
-    font-size: 50pt;
-    margin50pt;
-    margin-bottom:40pt;
+    font-size:20pt;
+    margin-top:auto;
     margin-left:auto;
     margin-right:auto;
     max-width:500pt;
@@ -171,11 +173,7 @@ h2 a.title:active {
 h3 {
     font-weight: bold;
     display:block;
-    font-size: 50pt;
-    margin:50pt;
-    margin-bottom:40pt;
-    margin-left:40pt;
-    margin-right:auto;
+    font-size:20pt;
     max-width:500pt;
     text-align:center;
 }
@@ -197,14 +195,13 @@ h3 a.title:active {
     color:#343631;
 }
 ul {
-    margin-top: -30pt;
+    margin-top: 0pt;
 }
 
 li {
     list-style: none;
     text-align: center;
-    margin-top: 10pt;
-    margin-top: 15pt;
+    margin-top: 0pt;
 
 }
 
@@ -212,11 +209,16 @@ li {
 /*ul.news li {}*/
 
 p {
-    margin-top: 30pt;
-    margin-bottom: 30pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
     text-align:center;
 }
 
+p1 {
+    margin-top: 100pt;
+    margin-bottom: 0pt;
+    text-align:center;
+}
 
 
 img, video {
@@ -254,14 +256,3 @@ div.twoImages > img {
     width:200pt;
     height:auto;
 }
-
-#content {
-  float: right ;
-  width: 80% ;
-}
-#navbar {
-  float: right;
-  width: 20%;
-}
-
-
