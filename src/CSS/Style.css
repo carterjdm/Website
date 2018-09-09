@@ -2,6 +2,44 @@ html {
     -webkit-text-size-adjust: 100%;
     /* this stops mobile on iOS from resizing*/
 }
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #f9f9f3;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #f9f9f3;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: relative;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
 
 body {
     color: #300000;
@@ -11,8 +49,10 @@ body {
     font-family: Sans-Serif;
     /*background-color: #f9f9f3;*/
     background-color: #f9f9f3;
-    margin-left:auto;
-    margin-right:auto;
+    padding:0;
+    margin:0;
+    position:relative;
+    height:100%
     max-width:500pt;
     text-align:center;
 }
@@ -68,32 +108,14 @@ p a:hover {
 p a:active {
     color:#343631;
     text-decoration: none;
-}
-
-h1 a.title {
-    color:#343631;
-    text-decoration: none;
-}
-h1 a.title:visited {
-    color:#343631;
-    text-decoration: none;
-}
-h1 a.title:hover {
-    color:#g9g9g3;
-    text-decoration: underline;
-}
-h1 a.title:active {
-    color:#343631;
-}
-
 
 
 h1 {
     font-weight: bold;
     display:block;
-    font-size: 50pt;
+    font-size: 70pt;
     margin:50pt;
-    margin-bottom:40pt;
+    margin-top:-40pt;
     max-width:500pt;
     text-align:center;
 }
@@ -233,6 +255,13 @@ div.twoImages > img {
     height:auto;
 }
 
-
+#content {
+  float: right ;
+  width: 80% ;
+}
+#navbar {
+  float: right;
+  width: 20%;
+}
 
 
