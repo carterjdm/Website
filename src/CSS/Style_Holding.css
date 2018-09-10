@@ -1,0 +1,252 @@
+html
+::-webkit-scrollbar {
+    display: none;
+}
+
+{
+    -webkit-text-size-adjust: 100%;
+    /* this stops mobile on iOS from resizing*/
+}
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #f9f9f3;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #f9f9f3;
+
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: relative;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+h1 {
+    position: fixed
+    font-weight: bold;
+    display:block;
+    font-size:100pt;
+    margin-top:40pt;
+    margin-bottom:100pt;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    padding-top:30pt;
+
+}
+
+
+h1 a.title {
+    color:#F7DC6F;
+    text-decoration: none;
+}
+h1 a.title:visited {
+    color:#CD6155;
+    text-decoration: none;
+}
+h1 a.title:hover {
+    color:#5499C7;
+    text-decoration: underline;
+}
+h1 a.title:active {
+    color:#CD6155;
+
+
+}
+body {
+color: #5499C7;
+    font-size: 20pt;
+    line-height: 30pt;
+    font-weight: bold;
+    font-family: Sans-Serif;
+    /*background-color: #f9f9f3;*/
+    background-color: #f9f9f3;
+    position:relative;
+    height:100%
+    max-width:600pt;
+    text-align:center;
+
+}
+body1 {
+color: #CD6155;
+    font-size: 20pt;
+    line-height: 30pt;
+    font-weight: bold;
+    font-family: Sans-Serif;
+    /*background-color: #f9f9f3;*/
+    background-color: #f9f9f3;
+    position:relative;
+    height:100%
+    max-width:600pt;
+    text-align:center;
+
+}
+a2 {
+    color:#0000FF;
+    text-decoration: none;
+}
+a2:visited {
+    color:#0000FF;
+    text-decoration: none;
+}
+a2:hover {
+ color:#0000FF;
+ text-decoration: underline;
+}
+a2:active {
+    color:#0000FF;
+    text-decoration: none;
+}
+
+a1 {
+    color:#FF0000;
+    text-decoration: none;
+}
+a1:visited {
+    color:#FF0000;
+    text-decoration: none;
+}
+a1:hover {
+ color:#FF0000;
+ text-decoration: underline;
+}
+a1:active {
+    color:#FF0000;
+    text-decoration: none;
+}
+
+
+p.list a {
+    color:#FF0000;
+    text-decoration: none;
+}
+p.list a:visited {
+    color:#FF0000;
+    text-decoration: none;
+}
+p.list a:hover {
+    color:#FF0000;
+    text-decoration: underline;
+}
+p.list a:active {
+    color:#FF0000;
+    text-decoration: none;
+}
+
+
+p a {
+    color:#0000FF;
+    text-decoration: none;
+}
+p a:visited {
+    color:#0000FF;
+    text-decoration: none;
+}
+p a:hover {
+     color:#0000FF;
+    text-decoration: underline;
+}
+p a:active {
+    color:#0000FF;
+    text-decoration: none;
+
+
+
+h3 {
+    font-weight: bold;
+    display:block;
+    font-size:20pt;
+    max-width:500pt;
+    text-align:center;
+}
+
+
+h3 a.title {
+    color:#FF0000;
+    text-decoration: underline;
+}
+h3 a.title:visited {
+    color:#FF0000;
+    text-decoration: none;
+}
+h3 a.title:hover {
+    color:#FF0000;
+    text-decoration: underline;
+}
+h3 a.title:active {
+    color:#FF0000;
+}
+ul {
+    margin-top: 0pt;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    margin-top: 0pt;
+
+}
+
+
+
+img, video {
+    display:Block;
+    width:100%;
+    max-width:750pt;
+    margin-top:10pt;
+    margin-bottom:10pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.desaturate {
+    filter: grayscale(100%);
+}
+
+
+
+
+
+div.twoImages {
+    width:100%;
+    max-width:750pt;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.twoImages > img {
+    flex:auto;
+    width:200pt;
+    height:auto;
+}
