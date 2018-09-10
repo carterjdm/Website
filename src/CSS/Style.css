@@ -16,6 +16,8 @@ html
   top: 0;
   overflow-x: hidden;
   padding-top: 20px;
+
+
 }
 
 /* Control the left side */
@@ -28,6 +30,7 @@ html
 .right {
   right: 0;
   background-color: #f9f9f3;
+
 }
 
 /* If you want the content centered horizontally and vertically */
@@ -45,11 +48,12 @@ html
   border-radius: 50%;
 }
 h1 {
-    position: absolute
+    position: fixed
     font-weight: bold;
     display:block;
     font-size:100pt;
-    margin-bottom:-20pt;
+    margin-top:20pt;
+    margin-bottom:-30pt;
     margin-left:auto;
     margin-right:auto;
     text-align:center;
@@ -70,6 +74,8 @@ h1 a.title:hover {
 }
 h1 a.title:active {
     color:#00FF00;
+
+
 }
 body {
 color: #0000FF;
@@ -96,6 +102,7 @@ color: #FF0000;
     height:100%
     max-width:600pt;
     text-align:center;
+
 }
 a2 {
     color:#0000FF;
@@ -133,71 +140,40 @@ a1:active {
 
 
 p.list a {
-    color:#343631;
+    color:#FF0000;
     text-decoration: none;
 }
 p.list a:visited {
-    color:#343631;
+    color:#FF0000;
     text-decoration: none;
 }
 p.list a:hover {
-    color:#g9g9g3;
+    color:#FF0000;
     text-decoration: underline;
 }
 p.list a:active {
-    color:#000000;
+    color:#FF0000;
     text-decoration: none;
 }
 
 
 p a {
-    color:#343631;
+    color:#0000FF;
     text-decoration: none;
 }
 p a:visited {
-    color:#343631;
+    color:#0000FF;
     text-decoration: none;
 }
 p a:hover {
-     color:#g9g9g3;
+     color:#0000FF;
     text-decoration: underline;
 }
 p a:active {
-    color:#343631;
+    color:#0000FF;
     text-decoration: none;
 
 
-
-
-
-
-h2 {
-    font-weight: bold;
-    display:block;
-    font-size:20pt;
-    margin-top:auto;
-    margin-left:auto;
-    margin-right:auto;
-    max-width:500pt;
-    text-align:center;
-}
-
-
-h2 a.title {
-    color:#343631;
-    text-decoration: underline;
-}
-h2 a.title:visited {
-    color:#343631;
-    text-decoration: none;
-}
-h2 a.title:hover {
-    color:#g9g9g3;
-    text-decoration: underline;
-}
-h2 a.title:active {
-    color:#343631;
-}
 
 h3 {
     font-weight: bold;
@@ -209,19 +185,19 @@ h3 {
 
 
 h3 a.title {
-    color:#343631;
+    color:#FF0000;
     text-decoration: underline;
 }
 h3 a.title:visited {
-    color:#343631;
+    color:#FF0000;
     text-decoration: none;
 }
 h3 a.title:hover {
-    color:#g9g9g3;
+    color:#FF0000;
     text-decoration: underline;
 }
 h3 a.title:active {
-    color:#343631;
+    color:#FF0000;
 }
 ul {
     margin-top: 0pt;
@@ -234,20 +210,6 @@ li {
 
 }
 
-
-/*ul.news li {}*/
-
-p {
-    margin-top: 0pt;
-    margin-bottom: 0pt;
-    text-align:center;
-}
-
-p1 {
-    margin-top: 100pt;
-    margin-bottom: 0pt;
-    text-align:center;
-}
 
 
 img, video {
